@@ -1,0 +1,165 @@
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+
+    font-size:62.5%;
+    max-width: 100%;
+}
+
+
+
+
+nav.header{
+    text-align: center;
+    padding:5%;
+    width: 100%;
+}
+
+a{
+    
+    margin:5%;
+    padding:20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+a.plan{
+    border: 1px solid black;
+    background-color:#FF764E ;
+
+}
+a.learn{
+    border: 1px solid black;
+    background-color:#5ED3EB ;
+}
+a.involved{
+    border: 1px solid black;
+    background-color:#FFCD69 ;
+}
+    
+    
+.header_img{
+width: 25%;
+border-radius: 100%;
+margin: 5%;
+}
+
+
+.headTxt{
+    display: inline-block;
+    position: absolute;
+}
+h1{
+    font-family: 'Chelsea Market',  ;
+    font-size: 3em;
+    text-transform: capitalize;
+    margin:5% 5% 0% 5%;
+    padding:20px 20px 0px 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.2em;
+    display: inline-block;
+    padding:20px;
+    margin-left: 10%;
+}
+
+.headPar{
+    text-align: center;
+    display: inline-block;
+    margin:20px 30%;
+    width: 40%;
+}
+
+
+
+
+
+section{
+    text-align: center;
+}
+div.secDiv{
+    background-color:#DDB9A3;
+    color:white; 
+    margin:40px;
+    letter-spacing: 3px;
+    border:1px solid black;
+    padding: 10px;
+    
+}
+.secTxt{
+    margin:0px 200px;
+}
+.secPar{
+   
+}
+.campfire{
+    width: 6em;
+}
+.camper{
+    width: 6em;
+}
+footer{
+    background-color:#F9E7DC ;
+}
+.footer_img{
+    position: relative;
+    width: 100%;
+    
+}
